@@ -1,0 +1,33 @@
+/* =========================
+   THEME VARIABLES
+========================= */
+:root {
+  --primary-green: #006400;
+  --light-grey: #f0f0f0;
+  --mid-grey: #d3d3d3;
+  --accent-red: #d62828;
+  --accent-blue: #0056b3;
+  --white: #ffffff;
+  --black: #000000;
+  --font-main: 'Poppins', sans-serif;
+  --font-alt: 'Roboto', sans-serif;
+}
+
+/* Global Reset */
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--light-grey);
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-alt);
+  color: var(--primary-green);
+}
+
+@keyframes fadeSlide {
+  0% { opacity: 0; transform: translateY(20px); }
+  50% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-20px); }
+}

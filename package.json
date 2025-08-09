@@ -1,0 +1,25 @@
+{
+  "name": "jkuca_web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "log": "node updateProgress.js",
+    "dev": "concurrently \"npm run log\" \"npm --prefix client run dev\" \"npm --prefix server run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vihnie/JKUCA_Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vihnie/JKUCA_Web-App/issues"
+  },
+  "homepage": "https://github.com/Vihnie/JKUCA_Web-App#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
