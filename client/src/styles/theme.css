@@ -253,6 +253,32 @@ form button:hover {
 }
 
 /* =========================
+  RESOURCES PAGE          
+============================*/
+  .page-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-container li {
+  margin: 16px 0;
+}
+  .download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.download-btn:hover {
+  background-color: #218838;
+}
+
+
+/* =========================
    RESPONSIVE DESIGN
 ========================= */
 @media (max-width: 768px) {
@@ -261,7 +287,6 @@ form button:hover {
     gap: 0.5rem;
   }
 }
-
 
 
 
