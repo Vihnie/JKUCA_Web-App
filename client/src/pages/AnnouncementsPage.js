@@ -1,11 +1,14 @@
 export default function AnnouncementsPage() {
   return (
-    <div className="announcements">
+    <div className="announcements page-container">
       <h1>Announcements & Updates</h1>
       <ul>
-        <li>📢 Leadership training scheduled for next week.</li>
-        <li>📢 Certificate Award Ceremony in October.</li>
-        <li>📢 Call for proposals for the Constitution Review.</li>
+        <li>Upcoming meetings</li>
+        <li>Policy changes</li>
+        <li>Calls for proposals</li>
+        <li>Awards and recognition</li>
+        <li>Training invites</li>
+        <li>HELB/iTax/KUCCPS updates for reps</li>
       </ul>
     </div>
   );
