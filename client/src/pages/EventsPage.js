@@ -1,20 +1,14 @@
 export default function EventsPage() {
   return (
-    <div className="events">
+    <div className="page-container">
       <h1>Upcoming Events</h1>
-
-      <div className="event-card">
-        <h2>Leadership Training</h2>
-        <p>Date: 15th Sept 2025</p>
-        <p>Venue: JKUAT Main Hall</p>
-        <button>RSVP</button>
-      </div>
-
-      <div className="event-card">
-        <h2>Certificate Awarding Ceremony</h2>
-        <p>Date: 30th Oct 2025</p>
-        <p>Venue: JKUAT Conference Center</p>
-        <button>RSVP</button>
+      <div className="card">
+        <h3>Certificate Awarding Ceremony</h3>
+        <p className="card-date">20th April 2025</p>
+        <p>
+          Join us in recognizing outstanding class representatives for their
+          dedication and service.
+        </p>
       </div>
     </div>
   );

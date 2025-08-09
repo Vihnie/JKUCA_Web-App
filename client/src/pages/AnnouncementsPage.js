@@ -1,12 +1,12 @@
 export default function AnnouncementsPage() {
   return (
-    <div className="announcements">
+    <div className="page-container">
       <h1>Announcements & Updates</h1>
-      <ul>
-        <li>📢 Leadership training scheduled for next week.</li>
-        <li>📢 Certificate Award Ceremony in October.</li>
-        <li>📢 Call for proposals for the Constitution Review.</li>
-      </ul>
+      <div className="card">
+        <h3>Leadership Training</h3>
+        <p className="card-date">12th March 2025</p>
+        <p>We are inviting all class reps for a leadership training session.</p>
+      </div>
     </div>
   );
 }

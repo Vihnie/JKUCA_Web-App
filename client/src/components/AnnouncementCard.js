@@ -1,9 +1,9 @@
-export default function AnnouncementCard({ title, content, date }) {
+export default function AnnouncementCard({ title, date, content }) {
   return (
-    <div className="announcement-card">
+    <div className="card">
       <h3>{title}</h3>
+      <p className="card-date">{date}</p>
       <p>{content}</p>
-      <small>Posted on: {date}</small>
     </div>
   );
 }

@@ -1,10 +1,28 @@
 /* =========================
+   THEME VARIABLES
+========================= */
+:root {
+  --primary-green: #006400;
+  --accent-red: #d62828;
+  --accent-blue: #0056b3;
+  --white: #ffffff;
+  --light-grey: #f0f0f0;
+  --mid-grey: #d3d3d3;
+  --font-main: 'Poppins', sans-serif;
+  --font-alt: 'Roboto', sans-serif;
+}
+
+/* =========================
    GLOBAL STYLES
 ========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,6 +35,7 @@ body {
 a {
   text-decoration: none;
   color: var(--primary-green);
+  transition: color 0.3s ease;
 }
 
 a:hover {
@@ -36,35 +55,60 @@ p {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: var(--primary-green);
-  padding: 1rem;
+  background-color: rgb(38, 219, 104);
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.navbar .logo {
-  color: var(--white);
+.logo {
+  display: flex;
+  align-items: center;
 }
-.navbar a {
-  color: var(--white);
-  margin: 0 0.5rem;
-  text-decoration: none;
+
+.logo img {
+  height: 50px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+.nav-links {
+  display: flex; 
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--primary-green);
   font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
-.navbar a:hover {
-  color: var(--accent-blue);
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: var(--accent-blue);
+  color: var(--white);
 }
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* stack only on mobile */
+    gap: 0.5rem;
+  }
+}
+
 
 /* =========================
    FOOTER
 ========================= */
-
 .footer {
-  background-color: var(--mid-grey);
+  background-color: rgb(100, 216, 234);
   text-align: center;
   padding: 1rem;
+  color: #555;
 }
-
 
 /* =========================
    HOMEPAGE
@@ -105,6 +149,7 @@ p {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .quick-buttons button:hover {
@@ -124,7 +169,7 @@ p {
 }
 
 /* =========================
-   FORMS (Login, Register)
+   FORMS
 ========================= */
 form {
   background: var(--white);
@@ -155,6 +200,7 @@ form button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 form button:hover {
@@ -162,7 +208,7 @@ form button:hover {
 }
 
 /* =========================
-   ANNOUNCEMENTS / EVENTS
+   CARDS (Announcements, Events)
 ========================= */
 .card {
   background: var(--white);
@@ -210,16 +256,11 @@ form button:hover {
    RESPONSIVE DESIGN
 ========================= */
 @media (max-width: 768px) {
-  .navbar ul {
+  .nav-links {
     flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar ul li {
-    margin: 0.5rem 0;
+    gap: 0.5rem;
   }
 }
-
 
 
 

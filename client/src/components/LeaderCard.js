@@ -1,11 +1,11 @@
-export default function LeaderCard({ name, position, department, roles, quote, photo }) {
+export default function LeaderCard({ imgSrc, name, position, department, quote }) {
   return (
     <div className="leader-card">
-      <img src={photo} alt={`${name}`} className="leader-photo" />
+      <img src={imgSrc} alt={name} />
       <h3>{name}</h3>
-      <p><strong>{position}</strong> — {department}</p>
-      <p>{roles}</p>
-      {quote && <blockquote>“{quote}”</blockquote>}
+      <p>{position}</p>
+      {department && <p><strong>Dept:</strong> {department}</p>}
+      {quote && <blockquote>"{quote}"</blockquote>}
     </div>
   );
 }

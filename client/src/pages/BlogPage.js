@@ -1,11 +1,15 @@
 export default function BlogPage() {
   return (
-    <div className="blog">
-      <h1>JKUCA Insights</h1>
-      <article>
-        <h2>Student Governance & Leadership</h2>
-        <p>Empowering student leaders through recognition and advocacy...</p>
-      </article>
+    <div className="page-container">
+      <h1>Blog & Insights</h1>
+      <div className="card">
+        <h3>Student Governance in Action</h3>
+        <p className="card-date">March 10, 2025</p>
+        <p>
+          Leadership in JKUAT is evolving, and JKUCA is at the forefront of
+          empowering class representatives.
+        </p>
+      </div>
     </div>
   );
 }
