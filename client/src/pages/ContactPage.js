@@ -19,7 +19,7 @@ export default function ContactPage() {
       </form>
 
       <p>Email: jkucastudentsunion@gmail.com</p>
-      <p>Phone: +2547XXXXXXXX</p>
+      <p>Phone: +254726002906</p>
     </div>
   );
 }
