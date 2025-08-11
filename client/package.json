@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sirmakau24.github.io/JKUCA_Web-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
@@ -12,7 +11,7 @@
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.8.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^0.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -22,7 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
