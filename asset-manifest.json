@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Vihnie/JKUCA_Web-App.git/static/css/main.d537835c.css",
-    "main.js": "/Vihnie/JKUCA_Web-App.git/static/js/main.1a068d94.js",
-    "static/js/453.a3c1d153.chunk.js": "/Vihnie/JKUCA_Web-App.git/static/js/453.a3c1d153.chunk.js",
-    "static/media/logo.png": "/Vihnie/JKUCA_Web-App.git/static/media/logo.1839fa22e8e213b87734.png",
-    "index.html": "/Vihnie/JKUCA_Web-App.git/index.html",
-    "main.d537835c.css.map": "/Vihnie/JKUCA_Web-App.git/static/css/main.d537835c.css.map",
-    "main.1a068d94.js.map": "/Vihnie/JKUCA_Web-App.git/static/js/main.1a068d94.js.map",
-    "453.a3c1d153.chunk.js.map": "/Vihnie/JKUCA_Web-App.git/static/js/453.a3c1d153.chunk.js.map"
+    "main.css": "/JKUCA_Web-App/static/css/main.d537835c.css",
+    "main.js": "/JKUCA_Web-App/static/js/main.fa1a6e85.js",
+    "static/js/453.a3c1d153.chunk.js": "/JKUCA_Web-App/static/js/453.a3c1d153.chunk.js",
+    "static/media/logo.png": "/JKUCA_Web-App/static/media/logo.1839fa22e8e213b87734.png",
+    "index.html": "/JKUCA_Web-App/index.html",
+    "main.d537835c.css.map": "/JKUCA_Web-App/static/css/main.d537835c.css.map",
+    "main.fa1a6e85.js.map": "/JKUCA_Web-App/static/js/main.fa1a6e85.js.map",
+    "453.a3c1d153.chunk.js.map": "/JKUCA_Web-App/static/js/453.a3c1d153.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d537835c.css",
-    "static/js/main.1a068d94.js"
+    "static/js/main.fa1a6e85.js"
   ]
 }
